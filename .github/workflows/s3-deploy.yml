@@ -1,9 +1,6 @@
 name: s3-deploy
 
-on:
-  push:
-    branches:
-      - main
+on: push
 
 jobs:
   UploadStaticFiles:
