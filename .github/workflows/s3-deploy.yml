@@ -1,11 +1,13 @@
 name: s3-deploy
 
-on: push
+on:
+  push:
+    branches:
+    - main
 
 jobs:
   UploadStaticFiles:
     name: Upload static files
-    if: github.event.pull_request.merged == true #マージされたときのみこのjobを実行する
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
