@@ -1,5 +1,5 @@
-baseurl = "https://example.com/"
-title = "Site Title"
+baseurl = "https://sakudev.net"
+title = "Takumi Sakurai 's Page"
 themesDir = "./themes/"
 theme = "pulp"
 canonifyurls = true
@@ -12,15 +12,15 @@ hasCJKLanguage = true
     unsafe = true # Allow user HTML tags
 
 [params]
-    author = "Your Name"
-    avatar = "avatar.jpg"
+    author = "Takumi Sakurai"
+    avatar = "myIcon-virtual.JPG"
     # avatarDescription = "My avatar description"
     favicon = "favicon.ico"
     description = """
-        Please write anything here.
-        Profiles, backgrounds, favorite things etc.
+        I'm a cloud engineer. <br>
+        I develop mobile apps and web apps as a in my free time.
     """
-    publicationYear = "2019"
+    publicationYear = "2021"
     # listPageDateFormat = "January, 2006" # See https://gohugo.io/functions/format/
     # singlePageDateFormat = "January 2, 2006"
     # custom_css = ["/css/custom.css"]
@@ -35,26 +35,26 @@ hasCJKLanguage = true
     identifier = "blog"
     # name = "Blog" #If display text link, cancel comment out
     pre = "<i class='fa fa-book-open fa-lg'></i>" #Choose your favorite font from Font Awesome
-    url = "/blog/"
+    url = "https://zenn.dev/t_sakurai"
     weight = 10
 
 [[menu.main]]
     identifier = "twitter"
     # name = "Twitter"
     pre = "<i class='fab fa-twitter fa-lg'></i>"
-    url = "https://twitter.com/username"
+    url = "https://twitter.com/devsaku"
     weight = 20
 
 [[menu.main]]
     identifier = "github"
     # name = "GitHub"
     pre = "<i class='fab fa-github fa-lg'></i>"
-    url = "https://github.com/username"
+    url = "https://github.com/t-sakurai816"
     weight = 30
 
 [[menu.main]]
     identifier = "email"
     # name = "Email"
     pre = "<i class='fa fa-envelope fa-lg'></i>"
-    url = "mailto:username@example.com"
+    url = "mailto:t.devsaku@gmail.com"
     weight = 40
